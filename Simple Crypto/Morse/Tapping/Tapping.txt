@@ -1,0 +1,7 @@
+https://play.picoctf.org/practice/challenge/21?category=2&page=3
+
+Solving:
+1)Use online morse decoder https://morsedecoder.com
+
+Solution:
+PICOCTF{M0RS3C0D31SFUN2683824610}

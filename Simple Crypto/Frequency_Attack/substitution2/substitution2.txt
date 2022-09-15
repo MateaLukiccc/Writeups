@@ -1,0 +1,7 @@
+https://play.picoctf.org/practice/challenge/309?category=2&page=2 -substitution2
+
+Solving:
+1)Use substitution solver https://www.guballa.de/substitution-solver
+
+Solution:
+picoCTF{N6R4M_4N41Z515_15_73D10U5_42EA1770}

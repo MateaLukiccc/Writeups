@@ -1,0 +1,7 @@
+https://play.picoctf.org/practice/challenge/308?category=2&page=2
+
+Solving:
+1)Use quipqiup
+
+Solution:
+picoCTF{FR3QU3NCY_4774CK5_4R3_C001_6E0659FB}

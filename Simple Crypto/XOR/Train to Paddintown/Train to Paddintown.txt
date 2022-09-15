@@ -1,0 +1,11 @@
+TFCCTF 2022
+
+Solving:
+1)We are given only one function that pads our plaintext so that len(plaintext) is divisible by 16 it pads it with "?" or b'\x3f'
+key is random generated 16 bits and ciphertext is writen in a file in hex form after being xored with key that loops around if len(pt)>16
+So since we know that pt is begining with TFCCTF{ we know 7 of 16 key bits since we know that plaintext is of len 16*3 we can get coresponding plaintext bits
+TFCCTF{XXXXXXXXX_h4s_l3XXXXXXXXX4ti0n}?XXXXXXXXX is what we get from said operation
+We can see that known flag ends in ? so we can guess that last 10 chars of flag are ?????????? so xoring it with ct we get the rest of the plaintext
+
+Solution:
+TFCCTF{th3_tr41n_h4s_l3ft_th3_st4t10n}

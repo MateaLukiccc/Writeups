@@ -1,0 +1,7 @@
+https://next.avatao.com/events/serbian-cybersecurity-challenge-2022/challenges/crypto-with-wings
+
+Solvivng:
+1)Since every block ends with h we can assume that it is hex formated, by removing 0 and h we get the flag using CyberChief
+
+Solution:
+Red Bull gives you wiiings ${RBCRYPTOCHALLENGE_4_SCS2022}

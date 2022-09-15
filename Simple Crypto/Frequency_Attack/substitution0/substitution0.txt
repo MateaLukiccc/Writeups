@@ -1,0 +1,7 @@
+https://play.picoctf.org/practice/challenge/307?category=2&page=2 -substitution0
+
+Solving:
+1)we can use frequency analysis(https://www.101computing.net/frequency-analysis/) and substitution tool(https://www.quipqiup.com) or just the tool
+
+Solution:
+picoCTF{5UB5717U710N_3V0LU710N_357BF9FF}

@@ -1,0 +1,9 @@
+https://play.picoctf.org/practice/challenge/289?category=2&page=2 -rail-fence
+
+Solving:
+
+1)It is said it has 4 rails so we go to CyberChief and choose key=4
+2)By hand 
+
+Solution:
+picoCTF{WH3R3_D035_7H3_F3NC3_8361N_4ND_3ND_D00AFDD3}

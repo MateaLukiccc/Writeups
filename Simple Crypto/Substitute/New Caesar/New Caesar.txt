@@ -1,0 +1,18 @@
+https://play.picoctf.org/practice/challenge/158?category=2&page=1
+
+Solving:
+1)We only have 2 functions shift and b16_encode so we need to reverse them
+since the encryption proces is c=SHIFT(B16(m)) reverse would be m=B16(SHIFT(c))
+key is of length 1 so we can brute force it
+-reversing shift function is easy since it adds offsets from 'a' ex:(5+1) % 16=6 
+reverse would be (6-1) % 16 so we calculate offset of current letter in ciphertext and 
+subtract key offset 
+-reversing b16_encode function is little harder. This function maps every letter of plaintext to 2 of ciphertext 
+it makes 8bit binary number from every letter in plaintext ex:1100 0101 and switch their positions
+so 1100 0101 => 0101 1100 and since 4 bit number maximum is 15 it calculates alphabet[binary] for both 4 bit numbers
+and adds them in second order so ex: d => binary1 binary2=> binary2 binary1=> vf .So in order to reverse this
+function we need to go through the encoded string with step of 2 and find alphabet.index(1) and alphabet.index(2)
+convert them to binary numbers add them and find chr(sum)
+
+Solution:
+picoCTF{et_tu?_07d5c0892c1438d2b32600e83dc2b0e5}

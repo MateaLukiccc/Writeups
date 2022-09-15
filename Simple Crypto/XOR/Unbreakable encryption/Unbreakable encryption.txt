@@ -1,0 +1,5 @@
+Solving:
+1)we just xor p1 with c1 to get the key and then we can get the flag
+
+Solution:
+MetaCTF{you're_better_than_steve!}

@@ -1,0 +1,10 @@
+https://play.picoctf.org/practice/challenge/144?category=2&page=1 -Mod 26
+
+
+Solving:
+1)CyberChief-https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,false,13)&input=Y3ZwYlBHU3thcmtnX2d2enJfVid5eV9nZWxfMl9lYmhhcWZfYnNfZWJnMTNfaHlMaWNJbnR9
+2)Solve using python library codecs
+
+
+Solution:
+picoCTF{next_time_I'll_try_2_rounds_of_rot13_ulYvpVag}

@@ -1,0 +1,10 @@
+https://play.picoctf.org/practice/challenge/210?category=2&page=2 - spelling quiz
+
+Solving:
+
+1)As we can see from encrypt.py letters in study-guide file are scrambled and every letter is replaced by another one which makes it weak to frequency attacks
+We can use https://www.101computing.net/frequency-analysis/ for frequency analysis and when we determine that r=e using https://www.quipqiup.com tool for simple substitution ciphers
+we get the flag
+
+Solution:
+picoCTF{perhaps_the_dog_jumped_over_was_just_tired} 

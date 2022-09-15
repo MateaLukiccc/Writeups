@@ -1,0 +1,7 @@
+Solving:
+1)Plaintext is xored letter by letter with random letter B, randrange() is deterministic function so we know 
+its value in each iteration
+we need to make array of randrange() values and xor ciphertext with it
+
+Solution:
+UACTF{b4d_h4b175_l34d_70_py7h0n2}

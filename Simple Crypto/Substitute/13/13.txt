@@ -1,0 +1,10 @@
+https://play.picoctf.org/practice/challenge/62?category=2&page=1 -13
+
+Solving:
+1)It is said that is ROT13 so we can use CyberChief
+https://gchq.github.io/CyberChef/
+
+2)We can use python library codecs
+
+Solution:
+picoCTF{not_too_bad_of_a_problem}

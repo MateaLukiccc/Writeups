@@ -1,0 +1,8 @@
+EZ-CTF2022
+
+Solving:
+1)We can see that is probably multi-tap or something similar so we can use dcode.fr
+to see what it can be, it turns out to be multi tap
+
+Solution:
+EZ-CTF{THIS_IS_THE_LAMEST_CTF_FLAG_EVEEEER}

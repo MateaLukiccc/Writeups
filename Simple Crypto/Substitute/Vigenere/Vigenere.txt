@@ -1,0 +1,7 @@
+https://play.picoctf.org/practice/challenge/316?category=2&page=2 -Vigenere
+
+Solving:
+1)We can use CyberChief 
+
+Solution:
+picoCTF{D0NT_US3_V1G3N3R3_C1PH3R_2951a89h}

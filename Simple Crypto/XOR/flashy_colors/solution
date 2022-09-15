@@ -1,0 +1,9 @@
+go to color picker online and se rgb values of each pixel
+first is black so 00 00 00
+second in a row is blue 00 00 ff
+...
+if we sub 00 with 0 and ff with 1 we get the flag
+
+
+
+

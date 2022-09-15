@@ -1,0 +1,7 @@
+TFCCTF 2022
+
+Solving:
+1)We can send 40*'A' and get 80 long ciphertext after that we can assume that flag is encrypted with the same key so xoring
+40*'A' and last 40 ct bytes we get the key and xoring it with first 40 bytes we get the flasg
+
+Solution:

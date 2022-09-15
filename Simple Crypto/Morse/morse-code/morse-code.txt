@@ -1,0 +1,8 @@
+https://play.picoctf.org/practice/challenge/280?category=2&page=2 - morse-code
+
+Solving:
+
+1)Use online morse decoder- international morse decoders(https://morsecode.world/international/decoder/audio-decoder-adaptive.html)
+
+Solution:
+picoCTF{WH47_H47H_90D_W20U9H7} 
