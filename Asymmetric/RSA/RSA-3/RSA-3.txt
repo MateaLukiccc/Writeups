@@ -1,0 +1,9 @@
+DeconstruCtf 2021
+
+Solving:
+1)We get RSA public key in .pub file so we can use https://8gwifi.org/PemParserFunctions.jsp to read it,
+it otputs n and e. After checking factordb the n is fully factored so we have p q n and e since d is the flag 
+we can compute it and get the flag
+
+2)Solution:
+6393313697836242618414301946448995659516429576261871356767102021920538052481829568588047189447471873340140537810769433878383029164089236876209147584435733

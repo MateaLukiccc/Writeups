@@ -1,0 +1,7 @@
+https://play.picoctf.org/practice/challenge/2?category=2&page=4
+
+Solving:
+1)e is very big so we can suspect that it is wieners attack and use dcode.fr toget the flag
+
+Solution:
+picoCTF{bad_1d3a5_4783252}

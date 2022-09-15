@@ -1,0 +1,8 @@
+UIUCTF 2017- e and m too small for a large public key
+
+Solving:
+1)Message is 96 chars long so m*e=((2^8)^96)^5 < n so since m^e mod n = c we have m^e=c => m=c^(1/e)
+
+Solution:
+flag{c4n_w3_get_s0m3b0dy_t0_sm1th_some_c0pper_pls}
+

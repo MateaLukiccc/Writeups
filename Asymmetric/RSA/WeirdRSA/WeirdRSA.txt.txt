@@ -1,0 +1,9 @@
+By implementing Chinese remainder algorithm
+
+p and q are the primes
+dp = d mod (p - 1)
+dq = d mod (q - 1)
+Qinv = q^-1 mod p 
+m1 = pow(c, dp, p)
+m2 = pow(c, dq, q) 7-1) h = Qinv(m1 - m2) mod p ; if m1 < m2 7-2) h = Qinv * (m1 + q/p)
+m = m2 + hq

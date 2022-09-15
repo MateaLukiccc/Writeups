@@ -1,0 +1,8 @@
+https://play.picoctf.org/practice/challenge/73?category=2&page=4
+
+Solving:
+1)Since e is small and c is smaller than n we can suspect that it it small e attack and when we use dcode.fr we
+get the flag
+
+Solution:
+picoCTF{n33d_a_lArg3r_e_606ce004}

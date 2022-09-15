@@ -1,0 +1,14 @@
+https://play.picoctf.org/practice/challenge/154?category=2&page=1 - No Padding, No Problem
+
+Solving:
+1)Since we know n e and c we have m=c^d mod n but we need d and since program does not accept c we need to
+somehow send "modified" c but still be able to know m. One way is to use c^d mod n = (c+n)^d mod n since
+n mod n is always 0 so the result of decryption will be just m, so we send c+n to the program and get the flag
+
+2)Unpadded RSA is homomorphic which means that we can perform operations on encrypted data without first decrypting it
+so: encrypt(m1) * encrypt(m2) = ((m1^e) * (m2^e)) mod n = (m1 * m2)^e mod n = encrypt(m1 * m2)
+Since we know that we can send known value such as 2 and encrypt by m2=2^e mod n so now we can calculate c*m2
+and decrypt it in program so we get 2m from where we have the flag
+
+Solution:
+picoCTF{m4yb3_Th0se_m3s54g3s_4r3_difurrent_1772735}

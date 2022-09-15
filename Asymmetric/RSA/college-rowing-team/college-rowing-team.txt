@@ -1,0 +1,9 @@
+https://play.picoctf.org/practice/challenge/212?category=2&page=3
+
+Solving:
+1)From .py file we can see that its RSA encrypted data and it uses 4 messages rotated and used 3 times each so 12 total
+since the e is small and n factors are unknown we can suspect that it it small e attack when we plug c e and n in dcode.fr we get 
+the flag
+
+Solution:
+picoCTF{1_gu3ss_p30pl3_p4d_m3ss4g3s_f0r_4_r34s0n}

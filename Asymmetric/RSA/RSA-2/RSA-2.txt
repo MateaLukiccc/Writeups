@@ -1,0 +1,8 @@
+DeconstruCT.F 2021 
+
+Solving:
+1)Since given n is large but e is small we can suspect that m^e < n so if c=m^e mod n we 
+have c=m^e and we get m=c^(1/e)
+
+Solution:
+dsc{t0-m355-w1th-m4th-t4k35-4-l0t-0f-sp1n3}

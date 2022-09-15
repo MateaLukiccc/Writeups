@@ -1,0 +1,30 @@
+https://play.picoctf.org/practice/challenge/162?category=2&page=1 -Mind Your Ps and Qs
+
+Solving:
+1)Solve with python library pycrypto (Crypto.Util.number) and compute p and q from factordb online
+basics of RSA:
+
+c is ciphertext that we need to decrypt
+p and q are primes
+n is the result of p*q
+phi=(p-1)(q-1)
+e is public exponent- public key
+d is private exponent- private key
+m is plaintext-message
+
+key generation is 5 step process:
+	1)choose 2 primes p and q
+	2)find n: n=p*q
+	3)calculate Eulers function phi=(p-1)(q-1)
+	4)choose public key e
+	5)compute d such that d*e mod phi = 1
+
+in this case we need d with given n and e so d*e=1 mod phi 
+we can se that d is modular inverse (mod phi) of e
+to calc modular inevrses => https://planetcalc.com/3311/
+
+encryption operation => m^e mod n = c
+decryption operation => m=c^d (mod n)
+
+Solution:
+picoCTF{sma11_N_n0_g0od_13686679}

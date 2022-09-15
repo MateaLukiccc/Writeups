@@ -1,0 +1,10 @@
+https://play.picoctf.org/practice/challenge/159?category=2&page=1 - DachShund Attacks
+
+Solving:
+1)The Wiener's attack, named after cryptologist Michael J. Wiener, 
+is a type of cryptographic attack against RSA. 
+The attack uses the continued fraction method to expose the private key d when d is small.
+We can use python library owiener to implement this attack, get d and the flag
+
+Solution:
+picoCTF{proving_wiener_2635457}

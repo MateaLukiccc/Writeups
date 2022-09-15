@@ -1,0 +1,20 @@
+Looking at such a big value of e, it had to be Wiener's Attack or it's variant. But we cannot move further without decoding the values.
+
+The part below is purely guessing
+
+So, one of my teammates suggested looking at the distinct characters in the encoded strings. Here are the distinct characters present in the encoded strings:
+
+['A', 'b', 'E', 'g', 'l', 'O', 'S', 'B', 'T', 'Z']
+
+10 distinct characters, 10 digits in decimal system. So, each character represents a digit. But how do we map them?
+
+'O' --> 0
+'l' --> 1
+'Z' --> 2
+'E' --> 3
+'A' --> 4
+'S' --> 5
+'b' --> 6
+'T' --> 7
+'B' --> 8
+'g' --> 9
