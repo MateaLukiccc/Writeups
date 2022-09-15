@@ -1,0 +1,8 @@
+CSAW 2021
+
+Solving:
+1)Using enigma decoder with given settings gives us the flag
+Decoder:https://cryptii.com/pipes/enigma-machine
+
+Solution:
+scruffy_looking_nerf_herder

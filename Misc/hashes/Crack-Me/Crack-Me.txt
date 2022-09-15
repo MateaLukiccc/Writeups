@@ -1,0 +1,10 @@
+CSAW2021
+
+Solving:
+1)Using hash analyzer:https://www.tunnelsup.com/hash-analyzer/ we see that given hash is
+sha2-256 which in hashcat is 1400. Usinh hashcat command:
+hashcat -m 1420 a60458d2180258d47d7f7bef5236b33e86711ac926518ca4545ebf24cdc0b76c:sha256 rockme.txt
+we get the flag
+
+Solution:
+flag{cathouse}

@@ -1,0 +1,9 @@
+https://play.picoctf.org/practice/challenge/49?category=5&page=3
+
+Solving:
+1)since bank balance is intiger value it can be overflown and looped around after going
+to negative enough so it becames big positive number so buying 300000 fake flags gives us the 
+balance big enough to buy the actual flag
+
+Solution:
+picoCTF{m0n3y_bag5_68d16363}

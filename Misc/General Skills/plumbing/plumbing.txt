@@ -1,0 +1,8 @@
+https://play.picoctf.org/practice/challenge/48?category=5&page=3
+
+Solving:
+using >> file to send the output of the nc to our file we can
+use grep after to get the flag
+
+Solution:
+picoCTF{digital_plumb3r_ea8bfec7}

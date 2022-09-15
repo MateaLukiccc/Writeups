@@ -1,0 +1,7 @@
+https://play.picoctf.org/practice/challenge/176?category=5&page=1
+
+Solving:
+1)just unziping gives us the flag
+
+Solution:
+picoCTF{l3v3l_up!_t4k3_4_r35t!_2bcfb2ab}

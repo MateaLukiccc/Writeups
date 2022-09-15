@@ -1,0 +1,9 @@
+https://play.picoctf.org/practice/challenge/170?category=5&page=1
+
+Solving:
+1)using chmod +x warm we can now execute this file since after file warm we saw
+it was an exe file so ./warm we get the message to ask for help and ./warm -h 
+gets us the flag
+
+Solution:
+picoCTF{b1scu1ts_4nd_gr4vy_f0668f62}

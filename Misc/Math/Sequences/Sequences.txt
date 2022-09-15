@@ -1,0 +1,27 @@
+https://play.picoctf.org/practice/challenge/297?category=2&page=4
+
+Solving:
+1)we can see that m_func(i) returns 1,2,3,4 or 55692*m_func(i-4) - 9549*m_func(i-3) + 301*m_func(i-2) + 21*m_func(i-1) so for n>3 we have
+F(n)=55692*F(n-4) - 9549*F(n-3) + 301*F(n-2) + 21*F(n-1) we want to create linear equations so we need 3 more F's 
+we can do that by multiplying 0 in every n term other then one we are looking for
+F(n)   = 55692 * F(n-4) - 9549 * F(n-3) + 301 * F(n-2) + 21 * F(n-1)
+F(n-1) =     0 * F(n-4) -    0 * F(n-3) +   0 * F(n-2) +  1 * F(n-1)
+F(n-2) =     0 * F(n-4) -    0 * F(n-3) +   1 * F(n-2) +  0 * F(n-1)
+F(n-3) =     0 * F(n-4) -    1 * F(n-3) +   0 * F(n-2) +  0 * F(n-1)
+
+or in matrix form
+
+| Fn  |    21 301 -9549 55692      Fn-1
+| Fn-1|     1   0     0     0      Fn-2
+| Fn-2|  =  0   1     0     0   *  Fn-3   
+| Fn-3|     0   0     1     0      Fn-4
+                    A
+
+-we need eigenvectors(sopstvene vektore) of A
+A*x=lambda*x   lamba=eigenvalue x=eigenvector
+we have 4 eigenvectors and we make S matrix with them 
+
+-now we need diagonal matrix _/\_
+diagonal_matrix=S^(-1)*A*S
+
+-after that we calculate F(n)

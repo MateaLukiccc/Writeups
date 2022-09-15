@@ -1,0 +1,9 @@
+https://play.picoctf.org/practice?category=5&page=1
+
+Solving:
+xxd flag | head
+strings -n 7 flag
+
+Solution:
+picoCTF{s4n1ty_v3r1f13d_2fd6ed29}
+

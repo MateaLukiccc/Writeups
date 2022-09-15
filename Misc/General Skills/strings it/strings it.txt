@@ -1,0 +1,7 @@
+https://play.picoctf.org/practice/challenge/37?category=5&page=1
+
+Solving:
+strings -n 7 strings | grep pico 
+
+Solution:
+picoCTF{5tRIng5_1T_d66c7bb7}

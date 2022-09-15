@@ -1,0 +1,7 @@
+https://play.picoctf.org/practice/challenge/245?category=5&page=2
+
+Solving:
+1)we can see in source code that pass==1e1a and if it is true we get the flag
+
+Solution:
+picoCTF{545h_r1ng1ng_fa343060}

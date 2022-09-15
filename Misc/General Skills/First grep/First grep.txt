@@ -1,0 +1,7 @@
+https://play.picoctf.org/practice/challenge/85?category=5&page=2
+
+Solving:
+1)using strings+grep
+
+Solution:
+picoCTF{grep_is_good_to_find_things_f77e0797}

@@ -1,0 +1,9 @@
+https://play.picoctf.org/practice/challenge/163?category=5&page=1
+
+Solving:
+1)by running static we see that the flag is in it so by running
+strings on static we get the flag
+
+Solution:
+picoCTF{d15a5m_t34s3r_6f8c8200}
+

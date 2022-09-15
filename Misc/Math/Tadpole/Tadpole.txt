@@ -1,0 +1,15 @@
+Solving:
+1)We are given a, b, f(31337) and f(f(31337)) since
+f(31337)   = a*  s     +b mod p
+f(f(31337))= a* (a*s+b)+b mod p
+
+=>z1=(as+b)+k1p
+  z2=a(as+b)+b+k2p
+
+=>k1p=z1-(as+b)
+  k2p=z2-(a(as+b)+b)
+
+and so gcd(k1p,k2p)=p 
+
+Solution:
+corctf{1n_m4th3m4t1c5,_th3_3ucl1d14n_4lg0r1thm_1s_4n_3ff1c13nt_m3th0d_f0r_c0mput1ng_th3_GCD_0f_tw0_1nt3g3rs}
