@@ -1,0 +1,10 @@
+https://play.picoctf.org/practice/challenge/140?category=2&page=3
+
+Solving:
+1)Since DES is 64 bits(plaintext is 64 bits) and key is 56 bit double DES should have key of 112 bits so the security 
+would be 2^(112) 
+the procces is pt->x->ct so we can look at it as pt->x == x<-ct so we can enc(pt) and match it with dec(pt) so we lowe the security 2^(112)=>2*2^(56)=2^(57)
+
+Solution:
+Found match ke1=b'133317' key2=b'395753'
+b'e21cf83f64e53a743e685e55852feaf2'

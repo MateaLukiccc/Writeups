@@ -1,0 +1,10 @@
+https://next.avatao.com/events/serbian-cybersecurity-challenge-2022/challenges/simple-crypto
+
+Solving:
+1)We are given ciphertext and it is said that key consists of 8-character word CHALENGE(typo is intentional)
+Since AES can have 128 bit key, 192 bit key or 256 bit key, the key can only be CHALENGECHALENGE (8*16=128 bit), CHALENGECHALENGECHALENGE and 
+CHALENGECHALENGECHALENGECHALENGE. We are not given the IV so we can assume ECB is the used mode and when we input all info in CyberChief we get
+the string that ends with == so we can guess that it is base64 and it is so we can get the flag
+
+Solution:
+This text contains the relevant flag val: very_easy_to_find_flag

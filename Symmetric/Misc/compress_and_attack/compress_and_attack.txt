@@ -1,0 +1,7 @@
+https://play.picoctf.org/practice/challenge/127?category=2&page=3
+
+Solving:
+1)When we compress data when we compress same data 2 times it takes less space the random strings so we can guess the solution character by character
+
+Solution:
+picoCTF{sheriff_you_solved_the_crime}
