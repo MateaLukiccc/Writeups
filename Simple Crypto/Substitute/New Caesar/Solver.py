@@ -7,8 +7,8 @@ ALPHABET = string.ascii_lowercase[:16]   #abcdefghijklmnop
 encrypted="dcebcmebecamcmanaedbacdaanafagapdaaoabaaafdbapdpaaapadanandcafaadbdaapdpandcac"
 
 def unshift(c,k):
-	t1 = ord(c) - LOWERCASE_OFFSET   
-	t2 = ord(k) - LOWERCASE_OFFSET   
+	t1 = ord(c) + LOWERCASE_OFFSET   
+	t2 = ord(k) + LOWERCASE_OFFSET   
 	return ALPHABET[(t1 - t2) % len(ALPHABET)]   
 
 
